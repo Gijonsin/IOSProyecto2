@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACFC03132EC6A2AF00020E7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC03122EC6A2AF00020E7C /* AppDelegate.m */; };
+						72E7F665C94C4E43B7B96722 /* EcoHabit.m in Sources */,
+				531414F7284B431785C2B08D /* EcoChallenge.m in Sources */,
+				2911FB5FA5C540009B4EC1B7 /* DataManager.m in Sources */,
+				FCB7277F4DCF4F8BA11905A0 /* DashboardViewController.m in Sources */,
+				ACFC03132EC6A2AF00020E7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC03122EC6A2AF00020E7C /* AppDelegate.m */; };
 		ACFC03162EC6A2AF00020E7C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC03152EC6A2AF00020E7C /* SceneDelegate.m */; };
 		ACFC03192EC6A2AF00020E7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC03182EC6A2AF00020E7C /* ViewController.m */; };
 		ACFC031C2EC6A2AF00020E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFC031A2EC6A2AF00020E7C /* Main.storyboard */; };
@@ -17,6 +21,10 @@
 		ACFC032E2EC6A2B400020E7C /* IOSProyecto2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC032D2EC6A2B400020E7C /* IOSProyecto2Tests.m */; };
 		ACFC03382EC6A2B400020E7C /* IOSProyecto2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC03372EC6A2B400020E7C /* IOSProyecto2UITests.m */; };
 		ACFC033A2EC6A2B400020E7C /* IOSProyecto2UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC03392EC6A2B400020E7C /* IOSProyecto2UITestsLaunchTests.m */; };
+		72E7F665C94C4E43B7B96722 /* EcoHabit.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FAC1FC2DD3437ABF7B83E8 /* EcoHabit.m */; };
+		531414F7284B431785C2B08D /* EcoChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569D2F0E08046CBAA97226A /* EcoChallenge.m */; };
+		2911FB5FA5C540009B4EC1B7 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FBC20B33942CB9F8D1173 /* DataManager.m */; };
+		FCB7277F4DCF4F8BA11905A0 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F64DDD99104EBBAB9B9F72 /* DashboardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,15 @@
 
 /* Begin PBXFileReference section */
 		ACFC030E2EC6A2AF00020E7C /* IOSProyecto2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSProyecto2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACFC03112EC6A2AF00020E7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+						4F4B40B28602442B900DED31 /* EcoHabit.h */,
+				51FAC1FC2DD3437ABF7B83E8 /* EcoHabit.m */,
+				AEAF9E49AA6F44ADB14A02A7 /* EcoChallenge.h */,
+				8569D2F0E08046CBAA97226A /* EcoChallenge.m */,
+				664436C6E0D4401F9F928D8C /* DataManager.h */,
+				A39FBC20B33942CB9F8D1173 /* DataManager.m */,
+				A156FF2A644C428EBEA4AAB5 /* DashboardViewController.h */,
+				33F64DDD99104EBBAB9B9F72 /* DashboardViewController.m */,
+				ACFC03112EC6A2AF00020E7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ACFC03122EC6A2AF00020E7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ACFC03142EC6A2AF00020E7C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		ACFC03152EC6A2AF00020E7C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +70,14 @@
 		ACFC03332EC6A2B400020E7C /* IOSProyecto2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSProyecto2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFC03372EC6A2B400020E7C /* IOSProyecto2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSProyecto2UITests.m; sourceTree = "<group>"; };
 		ACFC03392EC6A2B400020E7C /* IOSProyecto2UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSProyecto2UITestsLaunchTests.m; sourceTree = "<group>"; };
+		4F4B40B28602442B900DED31 /* EcoHabit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EcoHabit.h; sourceTree = "<group>"; };
+		51FAC1FC2DD3437ABF7B83E8 /* EcoHabit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcoHabit.m; sourceTree = "<group>"; };
+		AEAF9E49AA6F44ADB14A02A7 /* EcoChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EcoChallenge.h; sourceTree = "<group>"; };
+		8569D2F0E08046CBAA97226A /* EcoChallenge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcoChallenge.m; sourceTree = "<group>"; };
+		664436C6E0D4401F9F928D8C /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		A39FBC20B33942CB9F8D1173 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		A156FF2A644C428EBEA4AAB5 /* DashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		33F64DDD99104EBBAB9B9F72 /* DashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +128,14 @@
 		ACFC03102EC6A2AF00020E7C /* IOSProyecto2 */ = {
 			isa = PBXGroup;
 			children = (
+								4F4B40B28602442B900DED31 /* EcoHabit.h */,
+				51FAC1FC2DD3437ABF7B83E8 /* EcoHabit.m */,
+				AEAF9E49AA6F44ADB14A02A7 /* EcoChallenge.h */,
+				8569D2F0E08046CBAA97226A /* EcoChallenge.m */,
+				664436C6E0D4401F9F928D8C /* DataManager.h */,
+				A39FBC20B33942CB9F8D1173 /* DataManager.m */,
+				A156FF2A644C428EBEA4AAB5 /* DashboardViewController.h */,
+				33F64DDD99104EBBAB9B9F72 /* DashboardViewController.m */,
 				ACFC03112EC6A2AF00020E7C /* AppDelegate.h */,
 				ACFC03122EC6A2AF00020E7C /* AppDelegate.m */,
 				ACFC03142EC6A2AF00020E7C /* SceneDelegate.h */,
@@ -267,6 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFC03192EC6A2AF00020E7C /* ViewController.m in Sources */,
+								72E7F665C94C4E43B7B96722 /* EcoHabit.m in Sources */,
+				531414F7284B431785C2B08D /* EcoChallenge.m in Sources */,
+				2911FB5FA5C540009B4EC1B7 /* DataManager.m in Sources */,
+				FCB7277F4DCF4F8BA11905A0 /* DashboardViewController.m in Sources */,
 				ACFC03132EC6A2AF00020E7C /* AppDelegate.m in Sources */,
 				ACFC03242EC6A2B300020E7C /* main.m in Sources */,
 				ACFC03162EC6A2AF00020E7C /* SceneDelegate.m in Sources */,
